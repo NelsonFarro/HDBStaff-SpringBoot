@@ -34,10 +34,10 @@ public class Staff {
 		private String category;
 		
 		@Column(name="dOfpost")
-		private LocalDateTime dateOfPost;
+		private String dateOfPost;
 
 		@Column(name="dOfclose")
-		private LocalDateTime dateOfClosing;
+		private String dateOfClosing;
 
 		
 		
